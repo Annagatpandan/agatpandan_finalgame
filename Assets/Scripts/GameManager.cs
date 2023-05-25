@@ -4,7 +4,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class GameManager : MonoBehaviour
 {	
 	// Place holders to allow connecting to other objects
-	public Transform spawnPoint;
+	public Transform spawnPoint Water4Simple;
 	public GameObject player;
 
 	// Flags that control the state of the game
