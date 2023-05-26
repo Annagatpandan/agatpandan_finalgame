@@ -4,7 +4,8 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class GameManager : MonoBehaviour
 {	
 	// Place holders to allow connecting to other objects
-	public Transform spawnPoint Water4Simple;
+	public Transform spawnPoint;
+	public Transform Water4Simple;
 	public GameObject player;
 
 	// Flags that control the state of the game
@@ -29,7 +30,7 @@ public class GameManager : MonoBehaviour
 		fpsController.enabled = false;
 	}
 
-
+	
 	//This resets to game back to the way it started
 	private void StartGame()
 	{
